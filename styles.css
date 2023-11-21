@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+*{
+   margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+.main{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+}
+.container{
+    /*margin:0 auto;*/
+    background-color:white;
+    max-width:250px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:.75rem;
+    border-radius:1rem;
+}
+.container img{
+    max-width:100%;
+}
+.container p{
+    
+    text-align:center;
+    font-size:15px;
+    margin-top:1rem;/* I will never use this in production
+    just simply following the requests via the style guide provided.
+}
+.attribution{
+    position:fixed;
+    bottom:0;
+    /*why isn't left working? left:0;*/
+}
+.light{
+    color:hsl(220, 15%, 55%);
+    padding-bottom:1rem;
+    
+    
+}
+
+.attribution{/*
+    position:fixed;
+    bottom:0;
+    text-align:center;why is it being weird and not centering 
+    is it because of the position fixed?*/
+    /* tried this but it centered in the middle of page when
+    I only want it centered at bottom where it's fixed;
+    top:50%;
+    left:50%;
+*/
+bottom:0;
+text-align:center;
+
+}
